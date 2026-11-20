@@ -1,0 +1,5 @@
+.venv/
+__pycache__/
+*.pyc
+data/
+anafora_pp2.pdf

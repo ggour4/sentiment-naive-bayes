@@ -1,0 +1,22 @@
+{
+  "MNB_COUNTS": {
+    "config": "A1_nopunct",
+    "f1_macro": 0.8254095912745104
+  },
+  "MNB_TFIDF": {
+    "config": "A3_stop_keepneg",
+    "f1_macro": 0.8278722474054012
+  },
+  "MNB_W2V": {
+    "config": "A4_stem",
+    "f1_macro": 0.6092575417566514
+  },
+  "BNB_BIN": {
+    "config": "A7_prune",
+    "f1_macro": 0.7958539258724407
+  },
+  "BOOL_MNB": {
+    "config": "A2_stop",
+    "f1_macro": 0.8419312986511308
+  }
+}
