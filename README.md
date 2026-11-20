@@ -36,7 +36,7 @@ Raw text, punctuation removal, stopword removal, stopword removal that keeps neg
 **Part B: linguistic techniques** (5 scenarios × 5 combinations = 25 experiments)
 - **Negation handling:** prefixes tokens with `NOT_` from a negation word up to the next punctuation mark
 - **POS weighting:** gives more weight to sentiment-bearing parts of speech
-- **Position weighting:** gives more weight to the closing sentences, where reviewers tend to state their verdict
+- **Position weighting:** doubles the weight of the first and last sentence of each review, where reviewers tend to introduce and sum up their opinion
 - **All combined**
 
 **Evaluation:** 5-fold stratified cross-validation, reporting accuracy and macro precision, recall and F1, with the standard deviation across folds. Vectorizers and Word2Vec are fitted inside each training fold, so no information leaks from the test fold.
